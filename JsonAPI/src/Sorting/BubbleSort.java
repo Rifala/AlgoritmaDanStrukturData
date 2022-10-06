@@ -1,4 +1,4 @@
-package Model;
+package Sorting;
 
 public class BubbleSort {
 

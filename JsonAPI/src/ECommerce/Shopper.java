@@ -1,5 +1,7 @@
 package ECommerce;
 
+
+
 public class Shopper {
     public String _pluCode;
     public String _pluName;
@@ -7,6 +9,7 @@ public class Shopper {
     public int _price;
     public String _size;
     public String _filename;
+
 
 
     public String get_pluCode() {
@@ -70,6 +73,40 @@ public class Shopper {
     public Shopper(){
 
     }
+
+//    public int partition (int start, int end){
+//        int pivot = this.get_pluCode().indexOf(end);
+//        int i = (start - 1);
+//        for (int j = start; j <= end - 1; j++){
+//            if (this.get_pluCode().indexOf(j) < pivot){
+//                i++;
+//                int t = this.get_pluCode().indexOf(i);
+//                this.get_pluCode().indexOf(i) = this.get_pluCode().indexOf(j);
+//                this.get_pluCode().indexOf(j) = t;
+//            }
+//        }
+//
+//        int t = this.get_pluCode().indexOf(i+1);
+//        this.get_pluCode().indexOf(i+1) = this.get_pluCode().indexOf(end);
+//        this.get_pluCode().indexOf(end) = t;
+//        return (i + 1);
+//    }
+//
+//    public void quickSort(int start, int end){
+//        if (start < end){
+//            int p = partition(start,end);
+//            quickSort(start, p - 1);
+//            quickSort(p + 1, end);
+//        }
+//    }
+//
+//    public void printArr(int n){
+//        int i;
+//        for (i = 0; i < n; i++){
+//            System.out.println(this.get_pluCode().indexOf(i) + " ");
+//        }
+//    }
+
 
 
 

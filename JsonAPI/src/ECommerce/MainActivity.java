@@ -21,6 +21,7 @@ public class MainActivity extends JFrame {
     JPanel _cartPanel;
 
 
+
     public MainActivity() throws IOException{
         getScreenSize();
         setScreenShow();
@@ -224,8 +225,11 @@ public class MainActivity extends JFrame {
             productsModel.set_description(myJSONOBject.getString("pludesc"));
             productsModel.set_filename(myJSONOBject.getString("filename"));
             productList.add(productsModel);
+
+
         } return productList;
     }
+
 
 
     public static void main(String[] args) throws IOException{
